@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-Bold.ttf');
+}
+@font-face {
+    font-family: 'Sanchez';
+    src: url(./fonts/Sanchez-Regular.ttf);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color:#ebe2cd ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.Title{
+    font-size: large;
+    font-family: 'Nunito',sans-serif;
+    color: #8FBF9F;
+    margin: 0px;
+}
+button{
+    font-family: 'Sanchez',sans-serif;
+    background-color: #ebe2cd;
+    border-style: none;
+    color: #5f5f5f;
+}
+.ButtonCont>button:hover{
+    cursor: pointer;
+    -webkit-animation: text-shadow-drop-center 0.6s both;
+    animation: text-shadow-drop-center 0.6s both;
+}
+@-webkit-keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 12px rgba(0, 0, 0);
+    }
+  }
+  @keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 12px rgba(0, 0, 0);
+    }
+  }
+.ButtonCont{
+    display: flex;
+    gap: 40px;
+    margin-right: 20px;
+}

@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Hind';
+    src: url(./fonts/HindSiliguri-Regular.ttf);
+}
+.paper{
+    height: 631.5px;
+    width: 446.25px;
+    border-radius: 5px;
+    align-self: center;
+    background-color: #ebe2cd;
+    padding: 5px;
+}
+.Gi>h2{
+    margin: 0px;
+    font-size: xx-large;
+    color: #ebe2cd;
+    text-align: left;
+    font-family: 'Sanchez';
+    background-color: #24613b;
+    border-radius: 3px;
+    padding: 2px;
+}
+.contact> div p{
+    margin: 0px;
+    font-family: 'Hind';
+    font-size: 25px;
+    margin-left: 5px;
+}
+.contact>div svg{
+    scale: 1.8;
+    margin-left: 10px;
+}
+.contact>p{
+    margin: 0px;
+}
+.contact{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact>div{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #24613b;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+.title>h3{
+    font-size: 25px;
+    font-family: 'Nunito';
+    color: #ebe2cd;
+    margin: 0px;
+}
+.title>svg{
+    scale: 1.8;
+    color: #ebe2cd;
+}
+
+.Edu>h3,.Exp>h3,.section2>h3{
+    font-family: 'Nunito';
+    font-size: 25px;
+    margin: 0px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info>h4{
+    font-size: 20px;
+    margin: 0px;
+    font-family: 'Sanchez';
+}
+.info>div{
+    font-family: 'Hind';
+}
+.info>div b{
+    font-style: oblique;
+    color: #24613b;
+    font-family: 'Nunito';
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.dates{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.resps>p{
+    font-family: 'Hind';
+    font-size: 18px;
+    margin: 0px;
+}
+.resps>h4{
+    font-size: 18px;
+    margin: 0px;
+    font-family: 'Nunito';
+}
+svg{
+    color: #24613b;
+}
+@media print {
+    .paper {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0px;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    .Gi>h2{
+        margin: 0px;
+        font-size: 48px;
+        color: #ebe2cd;
+        text-align: left;
+        font-family: 'Sanchez';
+        background-color: #24613b;
+        border-radius: 3px;
+        padding: 2px;
+    }
+    .contact> div p{
+        margin: 0px;
+        font-family: 'Hind';
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    .contact>div svg{
+        scale: 1.8;
+        margin-left: 10px;
+    }
+    .contact>p{
+        margin: 0px;
+    }
+    .contact{
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contact>div{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #24613b;
+        border-radius: 3px;
+        margin-top: 3px;
+    }
+    .title>h3{
+        font-size: 25px;
+        font-family: 'Nunito';
+        color: #ebe2cd;
+        margin: 0px;
+    }
+    .title>svg{
+        scale: 1.8;
+        color: #ebe2cd;
+    }
+    
+    .Edu>h3,.Exp>h3,.section2>h3{
+        font-family: 'Nunito';
+        font-size: 25px;
+        margin: 0px;
+    }
+    .info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .info>h4{
+        font-size: 20px;
+        margin: 0px;
+        font-family: 'Sanchez';
+    }
+    .info>div{
+        font-family: 'Hind';
+    }
+    .info>div b{
+        font-style: oblique;
+        color: #24613b;
+        font-family: 'Nunito';
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    .dates{
+        display: flex;
+        justify-content: space-between;
+        font-size: large;
+    }
+    .resps>p{
+        font-family: 'Hind';
+        font-size: 18px;
+        margin: 0px;
+    }
+    .resps>h4{
+        font-size: 18px;
+        margin: 0px;
+        font-family: 'Nunito';
+    }
+    svg{
+        color: #24613b;
+    }
+}

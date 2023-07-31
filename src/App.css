@@ -1,0 +1,16 @@
+.Roots{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.MainPanel{
+    display: grid;
+    grid-template-columns: 6fr  4fr;
+    gap: 5px;
+}
+.RightPanel{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

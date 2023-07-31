@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-Bold.ttf');
+}
+@font-face {
+    font-family: 'Sanchez';
+    src: url(./fonts/Sanchez-Regular.ttf);
+}
+@font-face {
+    font-family: 'Hind';
+    src: url(./fonts/HindSiliguri-Regular.ttf);
+}
+.wrappedUp{
+    display: none;
+}
+.Butt{
+    cursor: pointer;
+}
+.Butt:hover{
+
+}
+.PanelGI{
+    margin-top: 10px;
+    background-color: #ebe2cd;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.PanelGI>button h2{
+    font-size: x-large;
+    margin: 0px;
+    font-family: 'Nunito';
+    color: #353535;
+    text-align: center;
+}
+.fname{
+    display: flex;
+    flex-direction: column;
+}
+.fname>label{
+    color: #24613b;
+    font-family: 'Sanchez';
+    font-size: 24px;
+}
+.fname>input{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    border-radius: 3px;
+    padding: 3px 3px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .2s ease;
+    font-family: 'Hind';
+}
+input:hover{
+    box-shadow: 0 0 0 0 #fff inset, #68a67d 0 0 0 2px;
+}
+input:focus{
+    background: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, #68a67d 0 0 0 3px;
+}
+input:invalid{
+    color: red;
+}
