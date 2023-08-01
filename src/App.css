@@ -9,6 +9,12 @@
     grid-template-columns: 6fr  4fr;
     gap: 5px;
 }
+@media only screen and (max-width: 800px) {
+ .MainPanel{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+ }   
+}
 .RightPanel{
     display: flex;
     justify-content: center;

@@ -55,7 +55,7 @@ class CVDiv extends Component {
                 )}
                 {this.props.Edu.endDate ? (
                   <div>
-                    <b>To:</b> {this.props.Edu.startDate}
+                    <b>To:</b> {this.props.Edu.endDate}
                   </div>
                 ) : this.props.Edu.startDate ? (
                   <div>
@@ -83,7 +83,7 @@ class CVDiv extends Component {
                 )}
                 {this.props.Exp.endDate ? (
                   <div>
-                    <b>To:</b> {this.props.Exp.startDate}
+                    <b>To:</b> {this.props.Exp.endDate}
                   </div>
                 ) : this.props.Exp.startDate ? (
                   <div>
@@ -92,10 +92,14 @@ class CVDiv extends Component {
                 ) : null}
               </div>
             </div>
-            {this.props.Exp.responsibilties && (
+            {this.props.Exp.respArr && (
               <div className="resps">
                 <h4>Responsibilties:</h4>
-                <p>{this.props.Exp.responsibilties}</p>
+                <ul>
+                  {this.props.Exp.respArr.map((number) => (
+                    <li key={number}>{number}</li>
+                  ))}
+                </ul>
               </div>
             )}
             {/* ---------------------------------- */}
@@ -112,7 +116,7 @@ class CVDiv extends Component {
                     )}
                     {this.props.Exp.endDate1 ? (
                       <div>
-                        <b>To:</b> {this.props.Exp.startDate1}
+                        <b>To:</b> {this.props.Exp.endDate1}
                       </div>
                     ) : this.props.Exp.startDate1 ? (
                       <div>
@@ -121,10 +125,14 @@ class CVDiv extends Component {
                     ) : null}
                   </div>
                 </div>
-                {this.props.Exp.responsibilties1 && (
+                {this.props.Exp.respArr1 && (
                   <div className="resps">
                     <h4>Responsibilties:</h4>
-                    <p>{this.props.Exp.responsibilties1}</p>
+                    <ul>
+                      {this.props.Exp.respArr1.map((number) => (
+                        <li key={number}>{number}</li>
+                      ))}
+                    </ul>
                   </div>
                 )}
               </div>
